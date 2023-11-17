@@ -16,10 +16,18 @@ Misinformation, especially in the form of fake news, has become a significant ch
     - NLTK Stop words
       > Remove the words like "The" & "a" because they hold only small bits of information
     - NLTK Snowball stemmer 
-      > 
-
-
+- **Cross Vaildation**
+      - cross-validation is used to test if our model will generalize
+      - completely unseen data is used
+      - results show that the original Logit model performed poorly
 
 ### Dataset
 
 The model has been trained on a dataset from Kaggle [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) containing 40,00 both real and fake news articles.
+
+
+### Next steps 
+
+Cross-validation has shown us that the current method (Snowball, TFID, logit) is not generalizing well. There are a few things that can be done to improve performance. 
+- try out embeddings(Word2vec, Doc2Vec, BERT)
+- try a more complicated model 
