@@ -1,6 +1,6 @@
 ## Introduction
 
-Welcome to the Fake News Detection Model repository! This project aims to develop a machine-learning model for detecting fake news in textual content. Social media platforms enable information to spread rapidly and globally. While this facilitates the dissemination of important news, it also amplifies the speed at which misinformation can circulate. In an era where information spreads rapidly through various channels, the ability to identify misinformation is essential. 
+Welcome to the Fake News Detection Model repository! This project aims to develop a machine-learning model for detecting fake news in textual content. Social media platforms enable information to spread rapidly and globally. While this facilitates the dissemination of important news, it also amplifies the speed at which misinformation can circulate. In an era where information spreads rapidly through various channels, the ability to identify misinformation is essential. The end goal of this project is to create a predictive model that generalizes well to unseen data. This model will then be turned into an application that will allow people to test if news articles on social media are true or fake. 
 
 ### Motivation
 
