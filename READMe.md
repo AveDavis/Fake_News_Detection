@@ -30,4 +30,5 @@ The model has been trained on a dataset from Kaggle [Kaggle](https://www.kaggle.
 
 Cross-validation has shown us that the current method (Snowball, TFID, logit) is not generalizing well. There are a few things that can be done to improve performance. 
 - try out embeddings(Word2vec, Doc2Vec, BERT)
-- try a more complicated model 
+- try a more complicated model
+- Create EDA file
